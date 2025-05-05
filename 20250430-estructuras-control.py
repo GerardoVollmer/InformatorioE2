@@ -14,7 +14,7 @@ else:
 #condicion multiples
 if condicion:
     print("La condicion es verdadera")
-elif (conficion_2):
+elif (condicion_2):
     print("La condicion 2 es verdadera")
 elif(condicion_3):
     print("La condicion 3 es verdadera")

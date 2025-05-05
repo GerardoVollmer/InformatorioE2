@@ -34,7 +34,7 @@ str_2 = "rmatorio"
 # # Operador
 # Suma
 
-suma = set_1 + set_2
+suma = str_1 + str_2
 print(f"La suma entre {str_1} y {str_2} es: {suma}") 
 
 ## Variables listas
