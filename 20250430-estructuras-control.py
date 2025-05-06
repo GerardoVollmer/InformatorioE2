@@ -1,5 +1,6 @@
 condicion = True
-conficion_2 = True
+condicion_2 = True
+condicion_3 = True
 
 #condicion simple
 if condicion:
