@@ -17,5 +17,12 @@
 #lista.reverse() #invierte la lista
 #print(lista) #imprime la lista invertida
 
-tupla = (1, 2, 3, 4, 5) #tupla
-print(tupla[0]) #imprime el primer elemento de la tupla
+#tupla = (1, 2, 3, 4, 5) #tupla
+#print(tupla[0]) #imprime el primer elemento de la tupla
+
+#crear una lista nueva, con los elementos de potenciados por si mismos
+# 0** 0, 4**4, 9**9, 16**16, 25**25
+
+lista = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+lista_potencia = [x**x for x in lista]
+print(lista_potencia)
