@@ -8,4 +8,6 @@ suma = 0
 while numero > 0:
     print(numero % 10)
     suma = suma + (numero % 10)
-
+    numero = numero // 10
+print(f'la suma de los digitos es: {suma}')
+# el usuario ingresa por pantalla una serie de numeros
